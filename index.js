@@ -3,6 +3,6 @@ function superbowlWin(record) {
     if (winningSeason !== undefined) {
         return winningSeason.year;
     } else {
-        return undefined;
+        return winningSeason;
     }
 }
